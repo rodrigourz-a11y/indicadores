@@ -1,0 +1,16 @@
+@Indicadores_HostAddress = http://localhost:5228
+
+### Obtener UF de hoy
+GET {{Indicadores_HostAddress}}/api/indicadores/uf/2025-12-23
+Accept: application/json
+
+### Actualizar todos los indicadores
+POST {{Indicadores_HostAddress}}/api/indicadores/actualizar
+Accept: application/json
+
+### Listar indicadores disponibles
+GET {{Indicadores_HostAddress}}/api/indicadores/disponibles
+Accept: application/json
+
+### Donaciones
+GET {{Indicadores_HostAddress}}/api/indicadores/donar
